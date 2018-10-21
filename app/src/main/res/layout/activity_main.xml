@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Change background and 2 buttons"
+        android:text="Random background color"
         android:onClick="OC_btn4"
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="245dp" />
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Change background and 3 buttons"
+        android:text="Random/white background color."
         android:onClick="OC_btn5"
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="331dp" />
