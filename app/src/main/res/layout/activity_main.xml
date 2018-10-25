@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LL"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:id="@+id/LL"
     tools:context=".MainActivity">
 
     <Space
@@ -14,12 +14,11 @@
         android:layout_weight="1" />
 
     <Button
-        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Text only"
         android:onClick="OC_btn1"
+        android:text="Text only"
         tools:layout_editor_absoluteX="136dp"
         tools:layout_editor_absoluteY="35dp" />
 
@@ -29,12 +28,11 @@
         android:layout_weight="1" />
 
     <Button
-        android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Text and icon"
         android:onClick="OC_btn2"
+        android:text="Text and icon"
         tools:layout_editor_absoluteX="165dp"
         tools:layout_editor_absoluteY="104dp" />
 
@@ -44,12 +42,11 @@
         android:layout_weight="1" />
 
     <Button
-        android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Text, icon and button"
         android:onClick="OC_btn3"
+        android:text="Text, icon and button"
         tools:layout_editor_absoluteX="165dp"
         tools:layout_editor_absoluteY="181dp" />
 
@@ -59,12 +56,11 @@
         android:layout_weight="1" />
 
     <Button
-        android:id="@+id/btn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Random background color"
         android:onClick="OC_btn4"
+        android:text="Random background color"
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="245dp" />
 
@@ -74,12 +70,11 @@
         android:layout_weight="1" />
 
     <Button
-        android:id="@+id/btn5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Random/white background color"
         android:onClick="OC_btn5"
+        android:text="Random/white background color"
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="331dp" />
 
